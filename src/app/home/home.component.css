@@ -1,0 +1,117 @@
+.hero-container {
+    background: url(/assets/images/flcquynhon.jpg) center center no-repeat;
+    background-size: cover;
+    height: cal(100vh - 200);
+}
+
+.book-now-container {
+    padding: 35px 80px;
+}
+
+.book-now-button {
+    width: 170px;
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.header-container {
+    height: 100vh;
+    padding: 200px 50px;
+    text-align: center;
+}
+
+.header-container .mat-display-4 {
+    color: #fbeaeb;
+    margin: 10px;
+    font-weight: 300;
+}
+
+.header-container .mat-display-3 {
+    color: #fbeaeb;
+    font-weight: 500;
+}
+
+.home-section {
+    padding: 80px;
+}
+
+.home-section p {
+    text-align: center;
+    line-height: normal;
+}
+
+.rooms-golf-display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.rooms-golf-display .mat-card {
+    position: relative;
+    text-align: center;
+}
+
+.rooms-suites {
+    background: url(/assets/images/beach-houses.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.golf {
+    background: url(/assets/images/golf.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 43px;
+
+}
+
+.rooms-golf-display mat-card {
+    height: 700px;
+}
+
+.rooms-golf-display mat-card-header {
+    position: absolute;
+    top: 25%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 104%;
+    text-align: center;
+    height: 60px;
+    background: rgba(255, 248, 225, .6);
+}
+
+.rooms-golf-display mat-card-actions {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rooms-golf-display mat-card button {
+    min-width: 141px;
+    min-height: 40px;
+}
+
+@media all and (max-width: 700px) {
+    .header-container .mat-display-2 {
+        font-size: 3.1rem;
+        line-height: 1.1;
+    }
+    
+    .header-container .mat-display-4 {
+        font-size: 3.1rem;
+        line-height: 1.1;
+    }
+}
+
+.copyright{
+    text-align: center;
+    -webkit-text-size-adjust: auto;
+}
+

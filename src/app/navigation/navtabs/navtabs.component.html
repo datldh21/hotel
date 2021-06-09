@@ -1,0 +1,41 @@
+<div class="navtabs-container">
+    <nav mat-tab-nav-bar fxFlex fxLayoutAlign="center center">
+        <span class="toolbar-flex"></span>
+            <a mat-tab-link routerLink="/"
+            routerLinkActive #home="routerLinkActive"
+            [active]="home.isActive">
+            Trang chủ 
+            </a>
+
+            <a mat-tab-link routerLink="/accommodation"
+            routerLinkActive #accommodation="routerLinkActive"
+            [active]="accommodation.isActive">
+            Phòng nghỉ dưỡng 
+            </a>
+
+            <a mat-tab-link routerLink="/foodbeverage"
+            routerLinkActive #foodbeverage="routerLinkActive"
+            [active]="foodbeverage.isActive">
+            Ẩm thực  
+            </a>
+
+            <a mat-tab-link routerLink="/lifestyle"
+            routerLinkActive #lifestyle="routerLinkActive"
+            [active]="lifestyle.isActive">
+            Phong cách 
+            </a>
+
+            <a mat-tab-link routerLink="/celebrations"
+            routerLinkActive #celebrations="routerLinkActive"
+            [active]="celebrations.isActive">
+            Tiệc kỷ niệm 
+            </a>
+
+            <a mat-tab-link routerLink="/offers"
+            routerLinkActive #offers="routerLinkActive"
+            [active]="offers.isActive">
+            Yêu cầu  
+            </a>
+        <span class="toolbar-flex"></span>
+    </nav>    
+</div>

@@ -1,0 +1,8 @@
+.card-bg-light{
+    background: url(../../../assets/images/background_signup.jpg);
+    background-size: cover;
+}
+
+.signin-text{
+    text-align: center;
+}
