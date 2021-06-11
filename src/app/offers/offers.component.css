@@ -6,3 +6,21 @@
     text-align: center;
     -webkit-text-size-adjust: auto;
 }
+
+.datepicker-container{
+    text-align: center;
+}
+
+.datepicker{
+    display: inline-block;
+}
+
+.datepickerrange{
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+}
+
+.offers-container{
+    background: url(../../assets/images/background_resetpassword.jpg);
+}
