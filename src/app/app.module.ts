@@ -29,6 +29,7 @@ import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ResetpasswordComponent } from './auth/resetpassword/resetpassword.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HomeComponent,
     HeaderComponent,
     SidenavListComponent,
-    NavtabsComponent
+    NavtabsComponent,
+    ResetpasswordComponent
   ],
   imports: [
     BrowserModule,
