@@ -1,6 +1,6 @@
 <div class="offers-container">
-    <br> 
-
+    <br> <br>
+    
     <div class="datepicker-container">
         <div class="datepicker">
             <ngb-datepicker #dp (dateSelect)="onDateSelection($event)" [displayMonths]="2" [dayTemplate]="t" outsideDays="hidden">
@@ -20,7 +20,17 @@
             </div>
         </div>
     </div>
-         
+
+    <br>
+
+    <div class="button-container">
+        <div class="button">
+            <button mat-raised-button color="primary">
+                Đặt ngay
+            </button>
+        </div>
+    </div>
+   
     <div fxLayout="column" fxLayoutAlign="center center">
         <div>
             <img src="../../assets/images/logo_flc.png">

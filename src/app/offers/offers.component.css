@@ -21,6 +21,14 @@
     display: inline-block;
 }
 
+.button-container{
+    text-align: center;
+}
+
+.button{
+    display: inline-block;
+}
+
 .offers-container{
     background: url(../../assets/images/background_resetpassword.jpg);
 }
