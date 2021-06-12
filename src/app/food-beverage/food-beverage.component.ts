@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-food-beverage',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FoodBeverageComponent implements OnInit {
 
-  constructor() { }
+  public constructor(private titleService: Title){
+    this.titleService.setTitle("Ẩm thực"); 
+  } 
 
   ngOnInit(): void {
   }

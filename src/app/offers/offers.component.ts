@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 import {NgbDate, NgbCalendar} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -26,15 +27,18 @@ import {NgbDate, NgbCalendar} from '@ng-bootstrap/ng-bootstrap';
   `]
 })
 export class OffersComponent implements OnInit {
-
+  // public constructor(private titleService: Title){
+  //   this.titleService.setTitle("Home page"); 
+  // } 
   hoveredDate: NgbDate | null = null;
 
   fromDate: NgbDate;
   toDate: NgbDate | null = null;
 
-  constructor(calendar: NgbCalendar) {
+  constructor(calendar: NgbCalendar, private titleService: Title) {
     this.fromDate = calendar.getToday();
     this.toDate = calendar.getNext(calendar.getToday(), 'd', 10);
+    this.titleService.setTitle("Đặt phòng")
   }
 
   ngOnInit(): void {

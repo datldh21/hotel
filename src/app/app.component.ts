@@ -7,11 +7,8 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public constructor(private titleService: Title) { }
-
-  // tslint:disable-next-line: typedef
-  public setTitle(newTitle: string) {
-    this.titleService.setTitle(newTitle);
-  }
+  public constructor(private titleService: Title){
+    this.titleService.setTitle("Trang chủ"); 
+  } 
 }
 
